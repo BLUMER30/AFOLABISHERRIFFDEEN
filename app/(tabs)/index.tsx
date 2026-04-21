@@ -18,28 +18,24 @@ export default function HomeScreen() {
         />
       }>
       <ThemedView style={styles.titleContainer}>
-        <ThemedText type="title">Welcome!</ThemedText>
+        <ThemedText type="title">Afolabi Sherriffdeen!</ThemedText>
         <HelloWave />
       </ThemedView>
       <ThemedView style={styles.stepContainer}>
-        <ThemedText type="subtitle">Step 1: Try it</ThemedText>
+        <ThemedText type="subtitle">Work</ThemedText>
         <ThemedText>
-          Edit <ThemedText type="defaultSemiBold">app/(tabs)/index.tsx</ThemedText> to see changes.
-          Press{' '}
+          I am a wed development specialist who is new to react native <ThemedText type="defaultSemiBold"></ThemedText> 
+        
           <ThemedText type="defaultSemiBold">
-            {Platform.select({
-              ios: 'cmd + d',
-              android: 'cmd + m',
-              web: 'F12',
-            })}
+            
           </ThemedText>{' '}
-          to open developer tools.
+          
         </ThemedText>
       </ThemedView>
       <ThemedView style={styles.stepContainer}>
         <Link href="/modal">
           <Link.Trigger>
-            <ThemedText type="subtitle">Step 2: Explore</ThemedText>
+            <ThemedText type="subtitle">About: I am a man of many talent : i can sing, dance,code and fly</ThemedText>
           </Link.Trigger>
           <Link.Preview />
           <Link.Menu>
@@ -60,18 +56,13 @@ export default function HomeScreen() {
           </Link.Menu>
         </Link>
 
-        <ThemedText>
-          {`Tap the Explore tab to learn more about what's included in this starter app.`}
-        </ThemedText>
       </ThemedView>
       <ThemedView style={styles.stepContainer}>
-        <ThemedText type="subtitle">Step 3: Get a fresh start</ThemedText>
+        <ThemedText type="subtitle">Fears: failure, being single and death( well who would not afraid of death)</ThemedText>
         <ThemedText>
-          {`When you're ready, run `}
-          <ThemedText type="defaultSemiBold">npm run reset-project</ThemedText> to get a fresh{' '}
-          <ThemedText type="defaultSemiBold">app</ThemedText> directory. This will move the current{' '}
-          <ThemedText type="defaultSemiBold">app</ThemedText> to{' '}
-          <ThemedText type="defaultSemiBold">app-example</ThemedText>.
+          {`When you're ready to connect: give a call on my `}
+          <ThemedText type="defaultSemiBold">whatsApp : 09042427323</ThemedText> to get a reply text first with your name and picture {' '}
+          
         </ThemedText>
       </ThemedView>
     </ParallaxScrollView>
